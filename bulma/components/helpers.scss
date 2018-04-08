@@ -1,0 +1,12 @@
+
+.is-circle {
+    @include circle;
+}
+
+.is-block {
+    display: block;
+}
+
+.same-height {
+    @include same-height();
+}

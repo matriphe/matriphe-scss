@@ -1,0 +1,14 @@
+.hero {
+    .title {
+        padding-bottom: 1rem !important;
+    }
+
+    a {
+        border-bottom-style: dotted;
+        border-bottom-width: 1px;
+    }
+
+    a.button {
+        border-bottom-style: solid;
+    }
+}

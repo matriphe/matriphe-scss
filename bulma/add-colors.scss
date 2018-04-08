@@ -1,0 +1,13 @@
+$addColors: (
+  "twitter":($color-twitter, $white),
+  "instagram": ($color-instagram, $white),
+  "facebook": ($color-facebook, $white),
+  "google-plus": ($color-google-plus, $white),
+  "github": ($color-github, $white),
+  "linkedin": ($color-linkedin, $white),
+  "wordpress": ($color-wordpress, $white),
+  "whatsapp": ($color-whatsapp, $white),
+  "telegram": ($color-telegram, $white),
+  "path": ($color-path, $white)
+);
+$colors: map-merge($colors, $addColors);

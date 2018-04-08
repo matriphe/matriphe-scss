@@ -1,0 +1,36 @@
+$navbar-height-mobile: 2rem !important;
+$navbar-height-tablet: 4rem !important;
+$navbar-height-desktop: 6rem !important;
+
+.navbar {
+    .navbar-brand {
+        h1 {
+            color: $white;
+        }
+
+        a:hover {
+            background: transparent !important;
+        }
+    }   
+
+    @include mobile {
+        min-height: $navbar-height-mobile;
+
+        .title {
+            font-size: 1.5rem !important;
+        }
+        
+        .navbar-brand {
+            justify-content: center !important;
+        }
+    }
+
+    @include tablet {
+        min-height: $navbar-height-tablet;
+    }
+
+    @include desktop {
+        min-height: $navbar-height-desktop;
+    }
+}
+

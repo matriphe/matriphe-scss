@@ -1,0 +1,15 @@
+.footer {
+    background-color: $primary;
+    color: $white;
+
+    strong, .title, .subtitle {
+        color: $white !important;
+    }
+
+    a {
+        color: $white !important;
+        border-bottom-color: $white !important;
+        border-bottom-style: dotted;
+        border-bottom-width: 1px;
+    }
+}

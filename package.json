@@ -1,0 +1,23 @@
+{
+  "name": "matriphe-scss",
+  "version": "1.0.0",
+  "description": "Matriphe's SCSS for matriphe's web products.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matriphe/matriphe-scss.git"
+  },
+  "keywords": [
+    "matriphe",
+    "scss",
+    "bulma"
+  ],
+  "author": "Muhammad Zamroni <halo@matriphe.com> (https://matriphe.id)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matriphe/matriphe-scss/issues"
+  },
+  "homepage": "https://github.com/matriphe/matriphe-scss#readme",
+  "devDependencies": {
+    "bulma": "^0.6.2"
+  }
+}
