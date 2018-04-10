@@ -10,3 +10,23 @@
 .same-height {
     @include same-height();
 }
+
+.is-300 {
+    font-weight: 300;
+}
+
+.is-400 {
+    font-weight: 400;
+}
+
+.is-500 {
+    font-weight: 500;
+}
+
+.is-600 {
+    font-weight: 600;
+}
+
+.is-700 {
+    font-weight: 700;
+}
